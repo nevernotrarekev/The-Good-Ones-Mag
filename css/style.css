@@ -65,7 +65,9 @@ position:absolute;left:0;top:0;background:black;color:white;z-index:-1;
 nav { position: absolute; top: 0; width: 100%; text-align: center; border-bottom: 1px solid #333; z-index: 2000; background-color: rgba(30,30,30,0.77); }
     nav .inner { padding: 35px 30px }
     nav a { color: #fff; text-decoration: none; font-size: 16px; }
-#enter-button a { color: #fff; background: url(../images/btn_start.png) no-repeat center 23px; padding-bottom: 30px; }
+#enter-button a { color: #fff; background: url(../images/btn_start.png) no-repeat center 23px; padding-bottom: 30px;
+	font-family: "Courier New", Courier, mono;
+}
 
 
 /*Stories*/
