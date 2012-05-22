@@ -48,8 +48,18 @@ h2 { font-weight: normal!important }
 
 
 /* Cover */
-#start-images { width: 100%; height: 850px; margin: -145px auto 0; position: relative; z-index: 0; }
-    #start-images img { width: 100% }
+#start-images { 
+
+position:absolute;left:0;top:0;background:black;color:white;z-index:-1;
+	height: 100%;
+	width: 1820px;
+}
+    #start-images img { width: 100%;
+    
+    
+    
+    
+     }
 #enter-button { /*position: absolute;*/ position: relative; top: 100em; /*margin-top: -90px;*/  padding-top: 120px; background-color: rgba(51,51,51,0.37); z-index: 1000; }
 #enter-button:hover { background: #000 }
 nav { position: absolute; top: 0; width: 100%; text-align: center; border-bottom: 1px solid #333; z-index: 2000; background-color: rgba(30,30,30,0.77); }
@@ -116,29 +126,39 @@ article#cover.title-page { margin-bottom: -40px }
 
 
 /* Footer */
-article#ender { height: 200px }
-#ender li { float: left; width: 240px; min-height: 140px; margin-right: 30px; margin-bottom: 10px; }
-.copyright { border-top: 1px solid #DFDFDF; padding-top: 10px; margin-top: 20px; }
+footer#ender {
+	height: 200px;
+}
+#ender li { float: left; width: 240px; min-height: 140px; margin-right: 30px; margin-bottom: 10px;
+}
+.copyright { border-top: 1px solid #DFDFDF; padding-top: 10px; margin-top: 20px;
+}
     .copyright ul li { float: left; margin-right: 30px; font-family: proxima-nova, sans-serif; font-size: 12px; font-weight: 300; letter-spacing: 1px; text-transform: uppercase; color: #A0A0A0; display: block; height: 12px; }
 li.jump { float: right!Important; margin: 0!important; text-align: right; }
 
 
 /*  Issue #1 */
 #header, #intro, #second { width: 100% }
-#intro { background: url(../images/1.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; margin: 30px auto 0; padding-bottom: 0; padding-left: 0; padding-right: 0; }
-#second { background: url(../images/2.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; }
-#third { background: url(../images/3.jpg) no-repeat fixed 50% 0; color: white; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; height: 1150px; }
-#fourth { background: url(../images/4.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; /*-moz-box-shadow: 0 0 33px #666; ; -webkit-box-shadow: 0 0 33px #666; */ }
-#fifth { background: url(../images/5.jpg) no-repeat fixed 50% 0 }
-#sixth { background: url(../images/6.jpg) no-repeat fixed 50% 0 }
-#seven { background: url(../images/7.jpg) no-repeat fixed 50% 0 }
-#eight { background: url(../images/8.jpg) no-repeat fixed 50% 0 }
-#nine { background: url(../images/9.jpg) no-repeat fixed 50% 0 }
-#ten { background: url(../images/18.jpg) no-repeat fixed 50% 0 }
-#eleven { background: url(../images/11.jpg) no-repeat fixed 50% 0 }
-#twelve { background: url(../images/12.jpg) no-repeat fixed 50% 0 }
-#thirteen { background: url(../images/13.jpg) no-repeat fixed 50% 0 }
-#fourteen { background: url(../images/14.jpg) no-repeat fixed 50% 0 }
-#fifteen { background: url(../images/15.jpg) no-repeat fixed 50% 0 }
-#sixteen { background: url(../images/16.jpg) no-repeat fixed 50% 0 }
-#seventeen { background: url(../images/17.jpg) no-repeat fixed 50% 0 }
+#intro { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; margin: 30px auto 0; padding-bottom: 0; padding-left: 0; padding-right: 0; }
+#second { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread2.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; }
+#third { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread3.jpg) no-repeat fixed 50% 0; color: white; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; height: 1150px; }
+#fourth { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread4.jpg) no-repeat fixed 50% 0; color: white; height: 1150px; overflow: hidden; margin-right: auto; margin-left: auto; margin-bottom: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; /*-moz-box-shadow: 0 0 33px #666; ; -webkit-box-shadow: 0 0 33px #666; */ }
+#fifth { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread5.jpg) no-repeat fixed 50% 0}
+#sixth { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread6.jpg) no-repeat fixed 50% 0}
+#seven { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread7.jpg) no-repeat fixed 50% 0}
+#eight { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread8.jpg) no-repeat fixed 50% 0}
+#nine { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread9.jpg) no-repeat fixed 50% 0}
+#ten { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread10.jpg) no-repeat fixed 50% 0}
+#eleven { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread11.jpg) no-repeat fixed 50% 0}
+#twelve { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread12.jpg) no-repeat fixed 50% 0}
+#thirteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread13.jpg) no-repeat fixed 50% 0}
+#fourteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread14.jpg) no-repeat fixed 50% 0}
+#fifteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread15.jpg) no-repeat fixed 50% 0}
+#sixteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread16.jpg) no-repeat fixed 50% 0}
+#seventeen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread17.jpg) no-repeat fixed 50% 0}
+#eighteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread18.jpg) no-repeat fixed 50% 0}
+#nineteen { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread19.jpg) no-repeat fixed 50% 0}
+#twenty { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread20.jpg) no-repeat fixed 50% 0}
+#twentyone { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread21.jpg) no-repeat fixed 50% 0}
+#twentytwo { background: url(../images/0130_Erica_Lyon/web/Erica_Lyon_Spread22.jpg) no-repeat fixed 50% 0;
+}
